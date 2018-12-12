@@ -1,0 +1,23 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'Travel_Card' do
+   pod 'ReactiveCocoa', :git => 'https://github.com/zhao0/ReactiveCocoa.git', :tag => '2.5.2'
+   pod 'Masonry'
+   pod 'MGSwipeTableCell'
+   pod 'MJExtension'
+   pod 'PPNetworkHelper'
+   pod 'MBProgressHUD'
+   pod 'MJRefresh'
+   pod 'AMap3DMap-NO-IDFA'
+   pod 'SAMKeychain'
+   pod 'CYLTabBarController'
+   pod 'SCLAlertView-Objective-C'
+   pod 'pop'
+   pod 'FSCalendar'
+   pod 'IQKeyboardManager'
+   pod 'MaterialControls'
+   pod 'JPush'
+   pod 'MLeaksFinder'
+   pod 'SGQRCode'
+end
